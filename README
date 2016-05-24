@@ -6,9 +6,10 @@ Project 4
 
 Clustering.py - uses k means clustering on input data to separate the data into k clusters
               - prints out the final clusters using pyplot
-	      - file.txt must be in the format: xcoord ycoord\n
 
 input.txt - test file I used 
+          - must be in the format: <xcoord> <ycoord>\n
+	  
 
 proj4.ipynb - ipython notebook that does the same thing as Clustering.py but prints out each
 	      iteration of the algorithm to show how it is working. 
