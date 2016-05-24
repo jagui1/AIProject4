@@ -1,0 +1,26 @@
+Jeremy Aguillon
+CMSC 471
+Project 4
+
+                             Contents:
+
+Clustering.py - uses k means clustering on input data to separate the data into k clusters
+              - prints out the final clusters using pyplot
+	      - file.txt must be in the format: xcoord ycoord\n
+
+input.txt - test file I used 
+
+proj4.ipynb - ipython notebook that does the same thing as Clustering.py but prints out each
+	      iteration of the algorithm to show how it is working. 
+	    - used ipynb because of inline pyplotting
+
+	                     To Run:
+
+Clustering.py - Usage: python Clustering.py numberOfClusters file.txt
+
+ex. python3 Clustering.py 4 input.txt
+
+proj4.ipynb - edit the main at the bottom of the file to run
+	    - Usage: main(["clustering.py", <numOfClusters> , <input.txt>])
+
+ex. main(["clustering.py", "4", "input.txt"])
